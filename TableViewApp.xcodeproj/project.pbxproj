@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAB9DBCC1D3399A2007F206C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9DBCB1D3399A2007F206C /* AppDelegate.swift */; };
+		BAB9DBD11D3399A2007F206C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DBCF1D3399A2007F206C /* Main.storyboard */; };
+		BAB9DBD31D3399A2007F206C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DBD21D3399A2007F206C /* Assets.xcassets */; };
+		BAB9DBD61D3399A2007F206C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DBD41D3399A2007F206C /* LaunchScreen.storyboard */; };
+		BAB9DBDE1D339B85007F206C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9DBDD1D339B85007F206C /* TableViewController.swift */; };
+		BAB9DBE01D339BB7007F206C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9DBDF1D339BB7007F206C /* TableViewCell.swift */; };
+		BAB9DBE51D339E68007F206C /* Abraj-Al-Bait.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DBE11D339E68007F206C /* Abraj-Al-Bait.JPG */; };
+		BAB9DBE61D339E68007F206C /* Burj-Khalifa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DBE21D339E68007F206C /* Burj-Khalifa.jpg */; };
+		BAB9DBE71D339E68007F206C /* Shanghai-Tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DBE31D339E68007F206C /* Shanghai-Tower.jpg */; };
+		BAB9DBE81D339E68007F206C /* World-Trade-Center.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DBE41D339E68007F206C /* World-Trade-Center.jpg */; };
+		BAB9DBEA1D33A7AE007F206C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB9DBE91D33A7AE007F206C /* DetailViewController.swift */; };
+		BAB9DC051D33C9D7007F206C /* International-Commerce-Centre-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DBFF1D33C9D7007F206C /* International-Commerce-Centre-8.jpg */; };
+		BAB9DC061D33C9D7007F206C /* John-Hancock-Center-9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DC001D33C9D7007F206C /* John-Hancock-Center-9.jpg */; };
+		BAB9DC071D33C9D7007F206C /* Petronas-Twin-Towers-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DC011D33C9D7007F206C /* Petronas-Twin-Towers-10.jpg */; };
+		BAB9DC081D33C9D7007F206C /* Shanghai-World-Financial-Center-7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DC021D33C9D7007F206C /* Shanghai-World-Financial-Center-7.jpg */; };
+		BAB9DC091D33C9D7007F206C /* Taipei-101-6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DC031D33C9D7007F206C /* Taipei-101-6.jpg */; };
+		BAB9DC0A1D33C9D7007F206C /* Willis-Tower5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BAB9DC041D33C9D7007F206C /* Willis-Tower5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAB9DBC81D3399A2007F206C /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAB9DBCB1D3399A2007F206C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAB9DBD01D3399A2007F206C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAB9DBD21D3399A2007F206C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAB9DBD51D3399A2007F206C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAB9DBD71D3399A2007F206C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAB9DBDD1D339B85007F206C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BAB9DBDF1D339BB7007F206C /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BAB9DBE11D339E68007F206C /* Abraj-Al-Bait.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Abraj-Al-Bait.JPG"; sourceTree = "<group>"; };
+		BAB9DBE21D339E68007F206C /* Burj-Khalifa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Burj-Khalifa.jpg"; sourceTree = "<group>"; };
+		BAB9DBE31D339E68007F206C /* Shanghai-Tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shanghai-Tower.jpg"; sourceTree = "<group>"; };
+		BAB9DBE41D339E68007F206C /* World-Trade-Center.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "World-Trade-Center.jpg"; sourceTree = "<group>"; };
+		BAB9DBE91D33A7AE007F206C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BAB9DBFF1D33C9D7007F206C /* International-Commerce-Centre-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "International-Commerce-Centre-8.jpg"; sourceTree = "<group>"; };
+		BAB9DC001D33C9D7007F206C /* John-Hancock-Center-9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "John-Hancock-Center-9.jpg"; sourceTree = "<group>"; };
+		BAB9DC011D33C9D7007F206C /* Petronas-Twin-Towers-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Petronas-Twin-Towers-10.jpg"; sourceTree = "<group>"; };
+		BAB9DC021D33C9D7007F206C /* Shanghai-World-Financial-Center-7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shanghai-World-Financial-Center-7.jpg"; sourceTree = "<group>"; };
+		BAB9DC031D33C9D7007F206C /* Taipei-101-6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Taipei-101-6.jpg"; sourceTree = "<group>"; };
+		BAB9DC041D33C9D7007F206C /* Willis-Tower5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Willis-Tower5.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAB9DBC51D3399A2007F206C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAB9DBBF1D3399A2007F206C = {
+			isa = PBXGroup;
+			children = (
+				BAB9DBCA1D3399A2007F206C /* TableViewApp */,
+				BAB9DBC91D3399A2007F206C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAB9DBC91D3399A2007F206C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9DBC81D3399A2007F206C /* TableViewApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAB9DBCA1D3399A2007F206C /* TableViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				BAB9DBCB1D3399A2007F206C /* AppDelegate.swift */,
+				BAB9DBDD1D339B85007F206C /* TableViewController.swift */,
+				BAB9DBDF1D339BB7007F206C /* TableViewCell.swift */,
+				BAB9DBE91D33A7AE007F206C /* DetailViewController.swift */,
+				BAB9DBCF1D3399A2007F206C /* Main.storyboard */,
+				BAB9DBD21D3399A2007F206C /* Assets.xcassets */,
+				BAB9DBD41D3399A2007F206C /* LaunchScreen.storyboard */,
+				BAB9DBE11D339E68007F206C /* Abraj-Al-Bait.JPG */,
+				BAB9DBE21D339E68007F206C /* Burj-Khalifa.jpg */,
+				BAB9DBE31D339E68007F206C /* Shanghai-Tower.jpg */,
+				BAB9DBFF1D33C9D7007F206C /* International-Commerce-Centre-8.jpg */,
+				BAB9DC001D33C9D7007F206C /* John-Hancock-Center-9.jpg */,
+				BAB9DC011D33C9D7007F206C /* Petronas-Twin-Towers-10.jpg */,
+				BAB9DC021D33C9D7007F206C /* Shanghai-World-Financial-Center-7.jpg */,
+				BAB9DC031D33C9D7007F206C /* Taipei-101-6.jpg */,
+				BAB9DC041D33C9D7007F206C /* Willis-Tower5.jpg */,
+				BAB9DBE41D339E68007F206C /* World-Trade-Center.jpg */,
+				BAB9DBD71D3399A2007F206C /* Info.plist */,
+			);
+			path = TableViewApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAB9DBC71D3399A2007F206C /* TableViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAB9DBDA1D3399A2007F206C /* Build configuration list for PBXNativeTarget "TableViewApp" */;
+			buildPhases = (
+				BAB9DBC41D3399A2007F206C /* Sources */,
+				BAB9DBC51D3399A2007F206C /* Frameworks */,
+				BAB9DBC61D3399A2007F206C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewApp;
+			productName = TableViewApp;
+			productReference = BAB9DBC81D3399A2007F206C /* TableViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAB9DBC01D3399A2007F206C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Henry Aguinaga";
+				TargetAttributes = {
+					BAB9DBC71D3399A2007F206C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZGKM2V59UB;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = BAB9DBC31D3399A2007F206C /* Build configuration list for PBXProject "TableViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAB9DBBF1D3399A2007F206C;
+			productRefGroup = BAB9DBC91D3399A2007F206C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAB9DBC71D3399A2007F206C /* TableViewApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAB9DBC61D3399A2007F206C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9DBE71D339E68007F206C /* Shanghai-Tower.jpg in Resources */,
+				BAB9DC091D33C9D7007F206C /* Taipei-101-6.jpg in Resources */,
+				BAB9DBE81D339E68007F206C /* World-Trade-Center.jpg in Resources */,
+				BAB9DBD61D3399A2007F206C /* LaunchScreen.storyboard in Resources */,
+				BAB9DC0A1D33C9D7007F206C /* Willis-Tower5.jpg in Resources */,
+				BAB9DBE61D339E68007F206C /* Burj-Khalifa.jpg in Resources */,
+				BAB9DBD31D3399A2007F206C /* Assets.xcassets in Resources */,
+				BAB9DC051D33C9D7007F206C /* International-Commerce-Centre-8.jpg in Resources */,
+				BAB9DC071D33C9D7007F206C /* Petronas-Twin-Towers-10.jpg in Resources */,
+				BAB9DC061D33C9D7007F206C /* John-Hancock-Center-9.jpg in Resources */,
+				BAB9DBD11D3399A2007F206C /* Main.storyboard in Resources */,
+				BAB9DBE51D339E68007F206C /* Abraj-Al-Bait.JPG in Resources */,
+				BAB9DC081D33C9D7007F206C /* Shanghai-World-Financial-Center-7.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAB9DBC41D3399A2007F206C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB9DBE01D339BB7007F206C /* TableViewCell.swift in Sources */,
+				BAB9DBCC1D3399A2007F206C /* AppDelegate.swift in Sources */,
+				BAB9DBDE1D339B85007F206C /* TableViewController.swift in Sources */,
+				BAB9DBEA1D33A7AE007F206C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAB9DBCF1D3399A2007F206C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB9DBD01D3399A2007F206C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAB9DBD41D3399A2007F206C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAB9DBD51D3399A2007F206C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAB9DBD81D3399A2007F206C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAB9DBD91D3399A2007F206C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAB9DBDB1D3399A2007F206C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGKM2V59UB;
+				INFOPLIST_FILE = TableViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.aguinaga.TableViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BAB9DBDC1D3399A2007F206C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZGKM2V59UB;
+				INFOPLIST_FILE = TableViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henry.aguinaga.TableViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAB9DBC31D3399A2007F206C /* Build configuration list for PBXProject "TableViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9DBD81D3399A2007F206C /* Debug */,
+				BAB9DBD91D3399A2007F206C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAB9DBDA1D3399A2007F206C /* Build configuration list for PBXNativeTarget "TableViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAB9DBDB1D3399A2007F206C /* Debug */,
+				BAB9DBDC1D3399A2007F206C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAB9DBC01D3399A2007F206C /* Project object */;
+}
